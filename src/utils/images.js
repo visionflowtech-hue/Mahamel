@@ -1,3 +1,5 @@
+import logoLocal from '../assets/logo.png';
+
 /**
  * Central Assets and Image URL Storage File
  * 
@@ -7,7 +9,7 @@
 
 export const IMAGES = {
   // Official Logo
-  logo: 'https://www.manddsobhann.org/logo-transparent.png',
+  logo: logoLocal,
 
   // Hero & Banners
   heroBg: 'https://lh3.googleusercontent.com/d/1JjNd5VUL6k20AlSD9Ozf4IMC11AAJ-gB', // choir_performance_banner.jpg

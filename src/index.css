@@ -97,3 +97,15 @@ body {
   animation: bounce-subtle 2s ease-in-out infinite;
 }
 
+/* Disable sticky hover animations/effects on touch screens (phones) */
+@media (hover: none) {
+  a:hover,
+  button:hover,
+  [role="button"]:hover,
+  .group:hover * {
+    transform: none !important;
+    scale: none !important;
+    translate: none !important;
+  }
+}
+
